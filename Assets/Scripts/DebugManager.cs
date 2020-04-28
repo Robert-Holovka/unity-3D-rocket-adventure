@@ -18,11 +18,11 @@ namespace Scripts
         {
             if (Input.GetKeyDown(KeyCode.N))
             {
-                LevelManager.LoadNextScene(0);
+                StartCoroutine(LevelManager.LoadNextScene(0));
             }
             else if (Input.GetKeyDown(KeyCode.F))
             {
-                LevelManager.LoadFirstScene(0);
+                StartCoroutine(LevelManager.LoadFirstScene(0));
             }
             else if (Input.GetKeyDown(KeyCode.C))
             {

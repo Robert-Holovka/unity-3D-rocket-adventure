@@ -25,9 +25,11 @@ namespace Scripts
             {
                 Destroy(gameObject);
             }
-
-            DontDestroyOnLoad(gameObject);
-            audioSource = GetComponent<AudioSource>();
+            else
+            {
+                DontDestroyOnLoad(gameObject);
+                audioSource = GetComponent<AudioSource>();
+            }
         }
 
         private void OnEnable()
@@ -53,19 +55,20 @@ namespace Scripts
                         playerPosition,
                         Quaternion.identity);
 
-            IsTranscending = true;
             StartCoroutine((success) ? LoadNextScene(levelLoadDelay)
                                      : LoadFirstScene(levelLoadDelay));
         }
 
         internal static IEnumerator LoadFirstScene(float levelLoadDelay)
         {
+            IsTranscending = true;
             yield return new WaitForSeconds(levelLoadDelay);
             SceneManager.LoadScene(0);
         }
 
         internal static IEnumerator LoadNextScene(float levelLoadDelay)
         {
+            IsTranscending = true;
             yield return new WaitForSeconds(levelLoadDelay);
 
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
