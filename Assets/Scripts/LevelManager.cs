@@ -42,6 +42,14 @@ namespace Scripts
             SceneManager.sceneLoaded -= OnLevelLoaded;
         }
 
+        private void Update()
+        {
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Application.Quit();
+            }
+        }
+
         private void OnLevelLoaded(Scene scene, LoadSceneMode loadSceneMode)
         {
             IsTranscending = false;
