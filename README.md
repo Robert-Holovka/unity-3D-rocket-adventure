@@ -2,7 +2,8 @@
 
 # Goal
 ### Avoid all obstacles and land the rocket successfully to advance to the next level
-<img src='./Readme Pictures/Screenshot.png' alt="Gameplay"/>
+
+![Gameplay](Readme Pictures/gameplay.gif)
 
 # Controls
 |        Input       |      Action      |
