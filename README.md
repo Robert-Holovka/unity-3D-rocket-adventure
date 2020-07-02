@@ -3,7 +3,7 @@
 # Goal
 ### Avoid all obstacles and land the rocket successfully to advance to the next level
 
-![Gameplay](Readme Pictures/gameplay.gif)
+![Gameplay](Readme%20Pictures/gameplay.gif)
 
 # Controls
 |        Input       |      Action      |
