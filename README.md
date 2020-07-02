@@ -4,6 +4,7 @@
 ### Avoid all obstacles and land the rocket successfully to advance to the next level
 <img src='./Readme Pictures/Screenshot.png' alt="Gameplay"/>
 
+# Controls
 |        Input       |      Action      |
 |:------------------:|:----------------:|
 |       Escape       | Quit application |
