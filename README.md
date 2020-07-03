@@ -1,7 +1,7 @@
 # unity-3D-rocket-adventure
 
 # Goal
-### Avoid all obstacles and land the rocket successfully to advance to the next level
+### Avoid obstacles and land the rocket successfully to advance to the next level
 
 ![Gameplay](Readme%20Pictures/gameplay.gif)
 
